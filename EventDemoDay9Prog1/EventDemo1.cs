@@ -5,7 +5,7 @@ namespace EventDemoDay9Prog1
 {
     public class EventDemo1
     {
-        public event EventHandler CountValue;
+        public event Action CountValue;
         
 
         public void Message()
